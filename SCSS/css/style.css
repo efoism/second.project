@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  padding: 0 5rem;
+  width: 100%;
+}
+
+#Header {
+  background-image: url(https://www.bitdegree.org/learn/storage/media/images/dea337f7-b4a0-4ae1-871f-69e4d7dbbfe2.o.jpg);
+  width: 100%;
+  padding: 10px 0;
+  position: fixed;
+  z-index: 2;
+}
+
+#Header .header-all .left {
+  width: 20%;
+  float: left;
+}
+
+#Header .header-all .left a {
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#Header .header-all .left a:hover {
+  color: #f4623a;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Header .header-all .right {
+  width: 30%;
+  float: right;
+}
+
+#Header .header-all .right a {
+  float: left;
+  padding: 0 15px;
+  margin-left: 6px;
+  margin-top: 3px;
+  font-size: 14.4px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 100%;
+  text-decoration: none;
+}
+
+#Header .header-all .right a:hover {
+  color: #f4623a;
+}
+
+#Header .header-all .right a a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#Header .header-all .right a a:hover {
+  color: #c9c3c3;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.myicon i {
+  position: fixed;
+  right: 10px;
+  top: 7px;
+  color: white;
+  font-size: 15px;
+  background-color: #f4623f;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 999;
+}
+
+.myicon i:hover {
+  background-color: #b63c1a;
+}
+
+#Second {
+  background-image: url(https://img.locationscout.net/images/2017-09/flame-towers-azerbaijan_l.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 11rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+#Second .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3a3229;
+  opacity: .7;
+  z-index: -1;
+}
+
+#Second .second-text {
+  text-align: center;
+}
+
+#Second .second-text h1 {
+  color: #ffffff;
+  font-size: 56px;
+}
+
+#Second .second-text p {
+  font-size: 18.4px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+#Second .second-text a {
+  text-decoration: none;
+  background-color: #f4623f;
+  border-radius: 50px;
+  padding: 20px 36px;
+  font-size: 13.6px;
+  color: #ffffff;
+  font-weight: bold;
+  -webkit-transition: .4;
+  transition: .4;
+}
+
+#Second .second-text a:hover {
+  background-color: #c73a17;
+}
+
+#Second .second-text hr {
+  background-color: #f4623f;
+  width: 7%;
+  height: 3px;
+  margin: 30px auto;
+  border: none;
+}
+
+#Third {
+  background-color: #f4623f;
+  padding: 7rem 0;
+}
+
+#Third .third-text {
+  text-align: center;
+}
+
+#Third .third-text h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+#Third .third-text hr {
+  background-color: #ffffff;
+  height: 3px;
+  border: none;
+  margin: 30px auto;
+  width: 6%;
+}
+
+#Third .third-text p {
+  color: #ffffff;
+  opacity: .7;
+  margin-bottom: 50px;
+}
+
+#Third .third-text a {
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 20px 36px;
+  font-size: 13.6px;
+  color: #000000;
+  font-weight: bold;
+  -webkit-transition: .4;
+  transition: .4;
+}
+
+#Third .third-text a:hover {
+  background-color: #c9c3c3;
+}
+
+#Fourth {
+  padding: 6rem 0;
+}
+
+#Fourth .fourth-text {
+  text-align: center;
+}
+
+#Fourth .fourth-text h2 {
+  font-size: 2rem;
+}
+
+#Fourth .fourth-text hr {
+  background-color: #f4623a;
+  height: 3px;
+  border: none;
+  margin: 30px auto;
+  width: 6%;
+}
+
+#Fourth .fourth-all .box {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+#Fourth .fourth-all .box i {
+  color: #f4623a;
+  font-size: 60px;
+}
+
+#Fourth .fourth-all .box i:hover {
+  color: red;
+}
+
+#Fourth .fourth-all .box h3 {
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+#Fourth .fourth-all .box p {
+  color: #000000;
+  opacity: .8;
+  font-size: 16px;
+}
+
+#Fifth {
+  margin: 5rem 0;
+}
+
+#Fifth .fifth-all .box {
+  width: 33.3%;
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+
+#Fifth .fifth-all .box:hover .overlay {
+  opacity: .8;
+}
+
+#Fifth .fifth-all .box:hover .fifth-text {
+  opacity: 1;
+}
+
+#Fifth .fifth-all .box img {
+  width: 100%;
+}
+
+#Fifth .fifth-all .box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f4623a;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Fifth .fifth-all .box .fifth-text {
+  font-family: 'Syne Mono', monospace;
+  color: #ffffff;
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  -webkit-transform: translate(-50% -50%);
+          transform: translate(-50% -50%);
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Fifth .fifth-all .box .fifth-text h5, #Fifth .fifth-all .box .fifth-text h4 {
+  font-size: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+#Sixth {
+  padding: 5rem 0;
+  background-color: #343a40;
+}
+
+#Sixth .sixth-text {
+  text-align: center;
+}
+
+#Sixth .sixth-text h2 {
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+#Sixth .sixth-text a {
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 20px 36px;
+  font-size: 13.6px;
+  color: #000000;
+  font-weight: bold;
+  -webkit-transition: .4;
+  transition: .4;
+}
+
+#Sixth .sixth-text a:hover {
+  background-color: #cabdbd;
+}
+
+#Seventh {
+  margin: 5rem 0;
+}
+
+#Seventh .seventh-text {
+  text-align: center;
+}
+
+#Seventh .seventh-text h2 {
+  font-size: 25px;
+}
+
+#Seventh .seventh-text hr {
+  background-color: #f4623a;
+  width: 7%;
+  margin: 30px auto;
+  height: 3px;
+  border: none;
+}
+
+#Seventh .seventh-text p {
+  color: #000000;
+  opacity: .8;
+  font-size: 20px;
+}
+
+#Seventh .seventh-icon {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#Seventh .seventh-icon .left {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+#Seventh .seventh-icon .left i {
+  color: #343a40;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+#Seventh .seventh-icon .left i:hover {
+  color: red;
+  -webkit-transition: .4;
+  transition: .4;
+}
+
+#Seventh .seventh-icon .right {
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+
+#Seventh .seventh-icon .right i {
+  color: #343a40;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+#Seventh .seventh-icon .right i:hover {
+  color: red;
+  -webkit-transition: .4;
+  transition: .4;
+}
+
+#Footer {
+  background-color: #f8f9fa;
+  padding-top: 1rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+/*# sourceMappingURL=style.css.map */
